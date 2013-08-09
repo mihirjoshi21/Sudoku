@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SodokuSolver$DummySectionFragment" >
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:columnWidth="35dp"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="9"
+        android:smoothScrollbar="true"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</RelativeLayout>
